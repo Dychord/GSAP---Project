@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 62.5%; 
+    background: linear-gradient(90deg, rgb(17, 17, 17) 0%, rgb(27, 27, 27) 48%, rgb(14, 14, 14) 100%); 
+    color: white;
+    z-index: -5;
+    position: relative;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 9rem;
+    padding: 0 5rem;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    gap: 9rem;
+}
+
+.nav h3{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 2.6rem;
+}
+.center{
+    z-index: 10;
+}
+.center h1{
+    font-size: 25rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 21rem;
+    text-align: start;
+    width: 80%;
+    margin-left: 13%;
+}
+.center:nth-child(2){
+    margin-top: 15%;
+}
+#name{
+    text-align: center;
+}
+#sirname{
+    text-align: center;
+}
+.imgOne{
+    background-image: url("https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 20rem;
+    width: 20rem;
+    top: 40%;
+    left: 53%;
+    transform: translate(-50%,-50%) scale(3.5);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+}
+.imgTwo{
+    background-image: url("https://images.unsplash.com/photo-1581044777550-4cfa60707c03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D");
+    height: 20rem;
+    width: 20rem;
+    top: 40%;
+    left: 54%;
+    transform: translate(-50%,-50%) scale(3.6);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -2;
+    rotate: 8deg;
+}
+.imgThree{
+    background-image: url("https://images.unsplash.com/photo-1537065827051-e2a8ddd45fdb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D");
+    height: 20rem;
+    width: 20rem;
+    top: 40%;
+    left: 54%;
+    transform: translate(-50%,-50%) scale(3.6);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -3;
+    rotate: 15deg;
+}
